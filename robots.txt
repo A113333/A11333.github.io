@@ -1,0 +1,9 @@
+User-agent: Google
+Disallow: _includes
+Disallow: _layout
+Disallow: _sass
+
+
+User-agent: *
+Disallow: /
+
