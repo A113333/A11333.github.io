@@ -1,30 +1,57 @@
 ---
 layout: post
-title:  "CSS"
+title:  "Pre-compliled CSS and more..."
 date:   2016-11-14 19:19:24
 categories: jekyll update
 comments: true
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.
- You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which
- launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and
-includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
+**What do you think of pre-compiling your CSS?
+  Compare to regular CSS**
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at
- [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+I would say that pre-compiling CSS is actually easier than writing  pure CSS. Mostly because you don't have to write the same code
+over and over… It also lets you use some variables and other helpful things such as selector nestling. It makes CSS closer to “real” programming.
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+  **Which techniques did you use?**
+
+I have used SASS.
+
+**Pros and cons?**
+
+The pros is that you don't have to repeat yourself so much. This tanks to the fact that it makes CSS closer to real programing with; functions for transformation, selector nestling, the use of variables and mix-ins. The biggest cons is that it's a bit harder to debug if something goes wrong
+since the css lines don't match those that you have written in your precompiled css.
+
+  **What do you think of static site generators?**
+
+I think that it's an awesome way to build a website! Even tho i have had some problems getting into it i can alredy see the huge benefits of it.
+It's a simple and fast way to get a quite advanced site!
+
+ **What type of projects are they suitable for?**
+
+They are perfect for smaller  sites, such as blogs.
+
+
+  **What is robots.txt and how have you configure it for your site?**
+
+Robots.txt is a txt file that give instructions and information about your site to
+webb robots (such as search engines and more). For this site i've blocked my include files and my layout files, but opened the rest.
+
+
+  **What is humans.txt and how have you configure it for your site?**
+
+Humans.txt is a file on your site that presents who and how the site was made. On this sites humans.txt you can read that i have created it and
+abit about the software i have used to build my site.
+
+
+  **How did you implements comments to blog posts**
+
+I have used disqus for comments on my site.
+
+
+  **What is Open Graph and how do you make use of it?**
+
+Open Graph is a protocol that lets you decide how you want your site to be presented if it's linked, liked, or shared on social media.
+
+
