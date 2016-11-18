@@ -1,5 +1,5 @@
 <head>
-    <link rel="author" href="humans.txt" />
+    <link rel="author" href="../txt/humans.txt" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,4 +9,13 @@
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    {% if page.summary %}
+    <meta name="description" content="{{ page.summary | escape }}">
+    {% endif %}
+    {%if page.tags %}
+    <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+    {%endif %}
+
+    {% include general/og.html %}
 </head>

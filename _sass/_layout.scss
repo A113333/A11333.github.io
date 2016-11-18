@@ -96,7 +96,6 @@
  * Site footer
  */
 .site-footer {
-  border-top: 15px solid $grey-color-dark;
   border-bottom: 10px solid $grey-color-dark;
   padding: $spacing-unit 0;
   background-color: #555555;
@@ -169,12 +168,14 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+
+  border: 9px solid #424242;
+  padding: $spacing-unit 0;
   background-color: #e8e8e8;
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 35px;
 }
 
 .post-list {
@@ -201,12 +202,13 @@
 /**
  * Posts
  */
+
 .post-header {
     margin-bottom: $spacing-unit;
 }
 
 .post-title {
-    font-size: 62px;
+    font-size: 90px;
     letter-spacing: -1px;
     line-height: 1;
 
