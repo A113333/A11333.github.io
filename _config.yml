@@ -1,10 +1,9 @@
 # Site settings
-title: Alexander Nilsson
-email:
-description: > # this means to ignore newlines until "baseurl:"
-  Denna sidan är till för att presentera mig och mina arbeten.
+title: Alles Blogg
+email: an223dn@student.lnu.se
+description: > # Denna sidan är till för att presentera mig och mina arbeten.:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "A11333.github.io" #
 twitter_username: NilssonAlle
 github_username:  A11333
 
