@@ -2,7 +2,9 @@
 layout: post
 title:  "Pre-compliled CSS and more..."
 date:   2016-11-14 19:19:24
-categories: jekyll update
+categories: CSS
+image: A11333.github.io/img/ALLESBLOGG.png
+vertical: Code
 comments: true
 ---
 

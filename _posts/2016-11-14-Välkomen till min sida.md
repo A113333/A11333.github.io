@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Welcome to my page!"
+title:  "Welcome to my Blogg"
 date:   2016-11-14 19:19:24
-categories: jekyll update
+categories: Welcome
+image: A11333.github.io/img/ALLESBLOGG.png
+vertical: Code
 comments: true
 ---
 

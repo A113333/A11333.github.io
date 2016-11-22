@@ -1,8 +1,11 @@
 ---
 layout: page
 title: About
+image: https://a113333.github.io/A11333.github.io/img/meandsaga.jpg
 permalink: /about/
 ---
+
+
 **Hello and welcome!**
 
 
