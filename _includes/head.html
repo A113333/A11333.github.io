@@ -17,5 +17,36 @@
     <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
     {%endif %}
 
-    {% include og.html %}
+
+    <meta name="author" content="Alle Nilsson" />
+
+    <meta property="og:title"
+          content="{% if page.title %} {{ page.title | strip_html | strip_newlines | truncate: 160 }}
+    {% else %}
+      {{ site.title }}
+    {% endif %}">
+
+    <meta property="og:description" content="{% if page.excerpt %} {{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}
+      {% else %}
+        {{ site.description }}
+      {% endif %}">
+
+
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+
+    <meta property="og:site_name" content="{{ site.title }}" />
+
+    <meta property="og:locale" content="sv" />
+
+    {% if page.image %}
+    <meta property="og:image" content="{{page.image}}" />
+    <meta name="twitter:image" content="{{page.image}}" />
+    {% else %}
+    <meta property="og:image" content=<img src="../img/ALLESBLOGG.png" height="506" width="733"/>
+    <meta name="twitter:image" content=<img src="../img/ALLESBLOGG.png" height="506" width="733"/>
+    {% endif %}
+
+
+
+
 </head>
