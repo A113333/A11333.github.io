@@ -20,7 +20,7 @@ mix breed, Skilla, she is 5 months now, and our little baby!
 
 
 
-![Me-and-Sage](/img/meandsaga.jpg){:class="img-responsive"}
+![Me-and-Sage](../img/meandsaga.jpg){:class="img-responsive"}
 
 
 
