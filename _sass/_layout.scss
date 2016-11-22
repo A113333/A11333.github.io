@@ -3,10 +3,11 @@
  */
 .site-header {
 
-    min-height: 56px;
-    background-color: #555555;
+    min-height: 200px;
+     background-image: url(/img/header2.png);
     a.site-title {
-      color: honeydew;
+      color: black;
+
     }
 
     // Positioning context for the mobile navigation icon
@@ -14,8 +15,8 @@
 }
 
 .site-title {
-    color: honeydew;
-    font-size: 26px;
+    color: black;
+    font-size: 50px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -36,7 +37,7 @@
     }
 
     .page-link {
-        color: honeydew;
+        color: black;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -195,6 +196,7 @@
 .post-link {
     display: block;
     font-size: 24px;
+  color: black;
 }
 
 

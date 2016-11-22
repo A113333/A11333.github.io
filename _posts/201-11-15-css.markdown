@@ -16,7 +16,7 @@ over and over… It also lets you use some variables and other helpful things su
 
   **Which techniques did you use?**
 
-I have used SASS.
+I have not used that many of the functions of sass, i have used some selctor nestling and messed about whit variables.
 
 **Pros and cons?**
 
@@ -25,18 +25,22 @@ since the css lines don't match those that you have written in your precompiled 
 
   **What do you think of static site generators?**
 
-I think that it's an awesome way to build a website! Even tho i have had some problems getting into it i can alredy see the huge benefits of it.
+I think that it's an awesome way to build a website! Even tho i have had some problems getting into it i can already see the huge benefits of it.
 It's a simple and fast way to get a quite advanced site!
 
  **What type of projects are they suitable for?**
 
-They are perfect for smaller  sites, such as blogs.
+ First of all, as the name implies its a "static site", witch means that it works on site that do not require any interaction.
+They are perfect for smaller  sites, such as blogs. The reason its not that great for bigger sites is that i has to rebuild after every
+change, witch would take some time if you are building a large site!
 
 
   **What is robots.txt and how have you configure it for your site?**
 
 Robots.txt is a txt file that give instructions and information about your site to
 webb robots (such as search engines and more). For this site i've blocked my include files and my layout files, but opened the rest.
+Not all bots will follow these instrutions tho, if a maleware or spammer bot try to acess the page the robot.txt is not enough to block them.
+
 
 
   **What is humans.txt and how have you configure it for your site?**
@@ -47,7 +51,8 @@ abit about the software i have used to build my site.
 
   **How did you implements comments to blog posts**
 
-I have used disqus for comments on my site.
+I have used disqus for comments on my site. To get it working i had to creat an account on disqus and copy the code they provided. I did
+this in my post layout, since i felt that the post are the only thing that you should be able to comment.
 
 
   **What is Open Graph and how do you make use of it?**
